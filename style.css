@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.cabecalho{
+    background-color: #4d543d;
+    width: 100%;
+}
+.botao{
+    color: #4d543d;
+    font-size: 24px;
+}
+.titulo{
+    color: #4d543d;
+    font-family:Oswald;
+    
+}
+.texto{
+    background-color: #83c82a;
+}
+.h2{
+    font-family: Oswald;
+    font-size: 28px;
+    color: #4d543d;
+}
+.texto-inicial{
+    font-size: 24px;
+    color: #83c82a;
+}
+.texto-fonte{
+    font-size: 18px;
+    color: #4d543d;
+}
+.foto{
+    width: 30%;
+}
