@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Emblema+One&display=swap');
 :root{
     background-color: #e8fbbb;
 }
@@ -8,15 +8,17 @@
 .botao{
     color: #4d543d;
     font-size: 24px;
+    text-decoration: none;
 }
 .titulo{
     color: #4d543d;
     font-size: 32px;
-    font-family:Oswald;
+    font-family:Emblema One;
     text-align: center;
+    padding-top: 3em;
 }
 .h2{
-    font-family: Oswald;
+    font-family: Emblema One;
     font-size: 28px;
     color: #4d543d;
 }
@@ -33,9 +35,6 @@
     border-radius: 10px;
     height: 500px;
 }
-.topicos{
-    text-decoration: none;
-}
 .texto-descricao{
     font-size: 24px;
     display: inline-block;
@@ -50,8 +49,23 @@
     display: flex;
     align-items: center;
 }
-.ul{
-    text-decoration: none;
-    list-style-type: none;
+
+.topicos{
     display: flex;
+    position: absolute;
+    padding: 1em;
+    list-style-type: none; 
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
 }
+.botao-link{
+    text-decoration: none;
+    display: flex;
+    color:#e8fbbb;
+    font-size: 24px;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: #4d543d;
+}
+
